@@ -13,7 +13,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Chargement de l'ensemble de données Higgs
-higgs_df = spark.read.option("header", "false").option("inferSchema", "true").csv("HIGGS.csv")
+higgs_df = spark.read.option("header", "false").option("inferSchema", "true").csv("Higgs_tronc.csv")
 
 # Renommage de la colonne cible
 higgs_df = higgs_df.withColumnRenamed("_c0", "label")
