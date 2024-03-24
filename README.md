@@ -20,4 +20,6 @@
     python script.py
     ```
 
-À noter : Dans le projet, il y a un fichier CSV tronqué nommé "Higgs_tronc.csv" pour accélérer le traitement.
+À noter : Dans le projet, il y a un fichier CSV tronqué nommé "Higgs_tronc.csv" pour accélérer le traitement. Un fichier trop gros comme Higgs_csv ne pouvait pas être déposé sur ce repo.
+
+### Merci
